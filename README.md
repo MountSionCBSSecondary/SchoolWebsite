@@ -2,4 +2,6 @@
 test
 K.H
 
-tutorial screenshot
+This is a screenshot for a tutorial
+:)
+
