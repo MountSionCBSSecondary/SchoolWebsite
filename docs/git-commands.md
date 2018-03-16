@@ -28,7 +28,8 @@ Now you are working on a new branch, when you are happy with your changes or jus
 git status
 ```
 If all the files listed are the ones you are happy with to commit to your branch run the following series of commands.
-```git add .
+```
+git add .
 git commit -m '<<describe the changes here>>'
 git push <<your-remote-name>> <<your-branch-name>>
 ```
@@ -39,11 +40,11 @@ In order to check out someones PR you need to add that persons remote, this can 
 ```
 git remote add <<persons-github-name>> https://github.com/<<persons-github-name>>/SchoolWebsite.git
 ```
-Now that the person who created the PR's remote is added to your git project, you will need to fetch that persons branchs that can be done with the following command after you have added their remote
+Now that the person who created the PR's remote is added to your git project, you will need to fetch that person's branchs, that can be done with the following command after you have added their remote
 ```
 git fetch <<persons-github-name>>
 ```
-Now you have access to the branchs associated with that person fork of the repo, if you run the following
+Now you have access to the branchs associated with that person's fork of the repo, if you run the following
 ```
 git branch -v
 ```
