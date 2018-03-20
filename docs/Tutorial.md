@@ -14,7 +14,7 @@ We then click onto the repo page and download our forked repo
 In this guide I will assume that you do not have an SSH key. Although SSH keys aren’t vital, they make it easier to push things onto your github account.  
 You then open up your terminal if you’re on mac or linux. If you’re on windows then you open your powershell.  You then travel to the file where you want to save your repo using the  ```cd <FOLDER>``` command. 
 
-Once you get there you type ```git clone https://github.com/YOURUSERNAME/SchoolWebsite.git```.
+Once you get there you type ```git clone https://github.com/<<Your github username>>/SchoolWebsite.git```.
 You should get a message similar to this one 
 
 ```
