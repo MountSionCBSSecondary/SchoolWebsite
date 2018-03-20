@@ -22,6 +22,7 @@ So now you have following completed:
 - The repo cloned
 - Your fork remote added
 - The main repo remote added
+
 You can now begin to work and create your own PR against the main repo. To do this, you must create a branch. It is a good convention to give the branch a descriptive name, usually something descibing the work in the PR, keep this name short and too the point, example `add-contact-page`
 
 ```
