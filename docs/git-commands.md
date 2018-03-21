@@ -1,15 +1,17 @@
-# Git Hub Command Guide
-The following is a number of scenarios that you will encounter while contributing to this repo, a convention in this document is to use `<< >>` to indicate text that you will need to replace when running the commands on your own machine.
+# Git Command Guide
+The following is a number of scenarios that you will encounter while contributing to this repo. A convention in this document is to use `<< >>` to indicate text that you will need to replace when running the commands on your own machine.
 
 ## Clone this REPO
 Before you begin, you will need to clone this repo
 ```
 git clone https://github.com/MountSionCBSSecondary/SchoolWebsite.git
 ```
-The above command will download a copy of the repo. This copy of the repo will have the remote name of `origin`.
+The above command will download a copy of the repo to your local machine. This copy of the repo will have the remote name of `origin`.
+
 
 ## Add your own Remote
 Once you have the origin remote you will need to add a remote to your own fork of the repo. This can be done with the following command, just replace the placeholder with your own github name.
+A remote is a URL and it is github's way of specifying where a repo is stored. There is also two types of remotes `https` and `ssh` For example the school website `https` remote is `https://github.com/MountSionCBSSecondary/SchoolWebsite.git` and the `ssh` remote is `git@github.com:MountSionCBSSecondary/SchoolWebsite.git` 
 
 It should also be noted you will need to have forked the repo, how to do this can be seen in [our tutorial](Tutorial.md)
 
@@ -22,6 +24,10 @@ So now you have following completed:
 - The repo cloned
 - Your fork remote added
 - The main repo remote added
+
+Before you can begin working on the repo we need to explain what a `branch` is. `Master` is a `branch` the main `branch` where our code will live. When we want to add features or experiment with the website we will need to create a new `branch`, when you create a new `branch` you are creating a new environment to which you can apply changes too and test without the worry ofbreaking, causing errors or adding bugs to our `Master` branch.
+
+When you are happy with the changes you made to your `branch` and you want to add the changes to our `Master` branch then you will need to create a `Pull Request`, this is basically where you can show the changes you made to the whole team, and as a team we can discuss and review your changes till we are happy with the changes before we merge to `Master`.
 
 You can now begin to work and create your own PR against the main repo. To do this, you must create a branch. It is a good convention to give the branch a descriptive name, usually something descibing the work in the PR, keep this name short and too the point, example `add-contact-page`
 
@@ -38,7 +44,39 @@ git add .
 git commit -m '<<describe the changes here>>'
 git push <<your-remote-name>> <<your-branch-name>>
 ```
-Now you have pushed your changes on your branch to your remote, refer to [our tutorial](tutorial.md) on how to create a PR from here
+It should also be noted it is often the case where you will not want to add all files to your commit. Below is an example of an output when I ran `git status` while working on this guide.
+```
+On branch add-cheat-sheet
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   docs/git-commands.md
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+As can be seen here there is two files that have been modified, since the changes in `index.html` is out of the scope of the PR releated to the guide, we only want to add the `docs/git-commands.md`. This can be done as follows. 
+```
+git add docs/git-commands.md
+```
+After running the above command if we run `git status` again we get the following output.
+```
+On branch add-cheat-sheet
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   docs/git-commands.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+```
+As we can see, the `docs/git-commands.md` file is now after moving to `changes to be committed`, and the `index.html` file is under `not staged for commit`. This is exactly what we want, we can now proceed with adding a message and pushing our changes as shown above.
+
+Now you have pushed your changes on your branch to your remote, refer to [our tutorial](Tutorial.md) on how to create a PR from here
 
 ## Checking out other peoples PR's
 In order to check out someones PR you need to add that persons remote, this can be done with the following command, just replace the tags with the persons GitHub name
@@ -57,17 +95,17 @@ You will see a list of available branches to you locally, you will now need to c
 ```
 git checkout <<PR-branch-name>>
 ```
-Now you can view and run the code of the pr locally. Once you are done you can checkout a different branch or if you wish to return to the branch you were on before you checked out the PR run the following command
+Now you can view and run the code of the PR locally. Once you are done you can checkout a different branch or if you wish to return to the branch you were on before you checked out the PR run the following command
 ```
 git checkout -
 ```
 ## Rebasing your own PR
-So with multiple people working on a project the master branch (the original repo) can get ahead of the branch you are working on, so you will need to catch your work up to the master, this is known as Rebasing.
+With multiple people working on the same project, the master branch may have changed by the time you're ready to make your PR. Your branch must be up to date with the latest version of the master branch before you make a PR. This is known as `rebasing`.
 
-This process is done by the following, first you need to checkout master, the master is the branch that is in line with the origin repo on GitHub, once you are on the master branch you will need to pull the changes down from GitHub. Now your master branch locally is uptodate with the github repo. Next, you need to check out the branch you want to rebase, once on this branch, you can rebase off your local master branch. So to do that you can run the following commands
+This process is done by the following, first you need to checkout master, `the master is the branch that is in line with the origin repo on GitHub`, once you are on the master branch you will need to pull the changes down from GitHub. Now your master branch locally is up to date with the github repo. Next, you need to check out the branch you want to rebase, once on this branch, you can rebase off your local master branch. So to do that you can run the following commands
 ```
 git checkout master
-git pull origin
+git pull origin master
 git checkout <<branch-to-rebase>>
 git rebase master
 ```
@@ -99,3 +137,11 @@ git stash apply stash@{0}
 ```
 This will apply the changes in your latest stash to your current branch if you want to apply changes from a different stash simply replace `0` with the corresponding stash number.
 
+## Resetting
+It should be noted that resetting can potentially be dangerous as you will lose any uncommited or stashed changes when you run the command.
+
+If you need to return to a previous state you can run the following command. It will reset your code locally to the code of the commit you specify in the command.
+
+```
+git reset --hard << commit >>
+```
