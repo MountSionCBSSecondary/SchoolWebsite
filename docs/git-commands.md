@@ -25,9 +25,9 @@ So now you have following completed:
 - Your fork remote added
 - The main repo remote added
 
-Before you can begin working on the repo we need to explain what a `branch` is. `Master` is a `branch` the main `branch` where our code will live. When we want to add features or experiment with the website we will need to create a new `branch`, when you create a new `branch` you are creating a new environment to which you can apply changes too and test without the worry ofbreaking, causing errors or adding bugs to our `Master` branch.
+Before you can begin working on the repo we need to explain what a `branch` is. `Master` is a `branch` the main `branch` where our code will live. When we want to add features or experiment with the website we will need to create a new `branch`, when you create a new `branch` you are creating a new environment (which is identical to `master` branch) to which you can apply changes too and test without the worry of breaking, causing errors or adding bugs to our `Master` branch.
 
-When you are happy with the changes you made to your `branch` and you want to add the changes to our `Master` branch then you will need to create a `Pull Request`, this is basically where you can show the changes you made to the whole team, and as a team we can discuss and review your changes till we are happy with the changes before we merge to `Master`.
+When you are happy with the changes you made to your `branch` and you want to add the changes to our `Master` branch then you will need to create a `Pull Request`, this is basically where you can show the changes you made to the whole team, and as a team we can discuss and review your changes. When we are happy with the changes before we merge to `Master`.
 
 You can now begin to work and create your own PR against the main repo. To do this, you must create a branch. It is a good convention to give the branch a descriptive name, usually something descibing the work in the PR, keep this name short and too the point, example `add-contact-page`
 
