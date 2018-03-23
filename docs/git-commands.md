@@ -1,5 +1,5 @@
 # Git Command Guide
-The following is a number of scenarios that you will encounter while contributing to this repo. A convention in this document is to use `<< >>` to indicate text that you will need to replace when running the commands on your own machine.
+For a detailed guide on how to fork the repo and push changes you can check out [our tutorial](Tutorial.md) guide. This command guide is a point of reference to a number of scenarios that you will encounter while contributing to this repo. A convention in this document is to use `<< >>` to indicate text that you will need to replace when running the commands on your own machine.
 
 ## Clone this REPO
 Before you begin, you will need to clone this repo
@@ -8,10 +8,9 @@ git clone https://github.com/MountSionCBSSecondary/SchoolWebsite.git
 ```
 The above command will download a copy of the repo to your local machine. This copy of the repo will have the remote name of `origin`.
 
-
 ## Add your own Remote
-Once you have the origin remote you will need to add a remote to your own fork of the repo. This can be done with the following command, just replace the placeholder with your own github name.
-A remote is a URL and it is github's way of specifying where a repo is stored. There is also two types of remotes `https` and `ssh` For example the school website `https` remote is `https://github.com/MountSionCBSSecondary/SchoolWebsite.git` and the `ssh` remote is `git@github.com:MountSionCBSSecondary/SchoolWebsite.git` 
+Once you have the origin remote configured locally (i.e. your local copy knows where original repo is), you will need to configure your fork as a remote locally(i.e. your local copy knows where your fork is)
+A remote is a URL and it is github's way of specifying where a repo is stored. There are two ways to talk to a remote `https` and `ssh` For example the school website `https` remote is `https://github.com/MountSionCBSSecondary/SchoolWebsite.git` and the `ssh` remote is `git@github.com:MountSionCBSSecondary/SchoolWebsite.git` 
 
 It should also be noted you will need to have forked the repo, how to do this can be seen in [our tutorial](Tutorial.md)
 
@@ -25,11 +24,11 @@ So now you have following completed:
 - Your fork remote added
 - The main repo remote added
 
-Before you can begin working on the repo we need to explain what a `branch` is. `Master` is a `branch` the main `branch` where our code will live. When we want to add features or experiment with the website we will need to create a new `branch`, when you create a new `branch` you are creating a new environment (which is identical to `master` branch) to which you can apply changes too and test without the worry of breaking, causing errors or adding bugs to our `Master` branch.
+Before you can begin working on the repo we need to understand what a `branch` is. `Master` is a `branch` the main `branch` where our code will live. When we want to add features or experiment with the website we will need to create a new `branch`, when you create a new `branch` you are creating a new environment (which is identical to `master` branch) to which you can apply changes to and test without the worry of breaking, causing errors or adding bugs to our `Master` branch.
 
-When you are happy with the changes you made to your `branch` and you want to add the changes to our `Master` branch then you will need to create a `Pull Request`, this is basically where you can show the changes you made to the whole team, and as a team we can discuss and review your changes. When we are happy with the changes before we merge to `Master`.
+When you are happy with the changes you made to your `branch` and you want to add the changes to our `Master` branch then you will need to create a `Pull Request`, this is basically where you can show the changes you made to the whole team, and as a team we can discuss and review your changes. When at least two team members have reviewed and approved the changes, the creator of the pr can then merge it to `Master`. You can also request another team member to merge you pr to master if you like.
 
-You can now begin to work and create your own PR against the main repo. To do this, you must create a branch. It is a good convention to give the branch a descriptive name, usually something descibing the work in the PR, keep this name short and too the point, example `add-contact-page`
+You can now begin to work and create your own PR against the main repo. To do this, you must create a branch. It is a good convention to give the branch a descriptive name, usually something descibing the work in the PR, keep this name short and to the point, example `add-contact-page`
 
 ```
 git checkout -b <<desciptive-name-here>>
