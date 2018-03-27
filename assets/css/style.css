@@ -1,5 +1,8 @@
 /*navbar*/
 
+active {
+    background-color: #4CAF50;
+}
 .ui inverted tabular menu:hover {
-    background-color: red;
+    background-color: #172F5B;
 }
