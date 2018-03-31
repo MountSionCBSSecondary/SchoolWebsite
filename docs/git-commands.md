@@ -37,12 +37,16 @@ Now you are working on a new branch, when you are happy with your changes or jus
 ```
 git status
 ```
+### Commit all
+
 If all the files listed are the ones you are happy with to commit to your branch run the following series of commands.
 ```
 git add .
 git commit -m '<<describe the changes here>>'
 git push <<your-remote-name>> <<your-branch-name>>
 ```
+### Commit multiple or individual files
+
 It should also be noted it is often the case where you will not want to add all files to your commit. Below is an example of an output when I ran `git status` while working on this guide.
 ```
 On branch add-cheat-sheet
