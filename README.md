@@ -12,48 +12,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ![alt text](https://github.com/MountSionCBSSecondary/SchoolWebsite/tree/master/assets/images/Screenshot from 2018-04-17 12-12-37.png)
 
-First you're going to click on "Clone or Download"
-
-Then proceed to copy the link
-
----
-
-Now open your terminal
-
-Type
-`git clone <url>`
-
-### Terminal
-
-Wherever you are in terminal is where your file will be saved. TO navigate through the terminal you will only need 3 simple commands
-
-`cd`
-
-`ls`
-
-`cd..`
-
-The `cd` command is for changing directories, it is used by typing `cd <name-of-file>`
-
-The `ls` command will show all the files in the current directory, this makes it easy to navigate between files
-
-the `cd..` command will go back a directory, if you accidentally go to the wrong file you can use this to go back
-
-### Prerequisites
-
-Some software that will improve production consist of
-
-```
-Brackets
-```
-
-```
-Sublime
-```
-
-```
-Terminator
-```
 
 ### Installing
 
@@ -97,11 +55,6 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
