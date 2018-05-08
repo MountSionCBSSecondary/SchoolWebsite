@@ -1,5 +1,7 @@
 # Mountsion CBS Secondary Website
 
+![alt text](https://github.com/MountSionCBSSecondary/SchoolWebsite/tree/master/assets/images/Mount Sion Crest.jpg)
+
 This project is a website that is being made by 4 students from Mountsion CBS Secondary along with the help of RedHat Waterford
 
 ## Getting Started
