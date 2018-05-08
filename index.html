@@ -4,7 +4,6 @@
 <head>
     <title>Mount Sion CBS Secondary School</title>
 
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css">
     <link src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.js">
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
@@ -14,37 +13,56 @@
 
 <body>
 
-    <div class="ui container">
-        <img class="ui centered medium image" src="assets/images/logo.jpg">
+    <div class="ui container">    
+    <img class="ui centered medium image" src="assets/images/logo.jpg">
 
         <div class="stackable ui tabular menu">
-            <a class="item active" href="index.html">
+            <a class="item" href="index.html">
                 Home
             </a>
-            <a class="item" href="./pages/about.html">
+            <div class="ui simple dropdown item">
                 About
-            </a>
-            <a class="item" href="./pages/curriculum.html">
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a class="item" href="./pages/about/principal.html"> Principal's welcome</a>
+                    <a class="item" href="./pages/about/history.html"> History</a>
+                    <a class="item" href="./pages/about/mission.html"> Mission statement</a>
+                    <a class="item" href="./pages/about/staff.html"> Staff</a>
+                    <a class="item" href="./pages/about/policies.html"> School Policies</a>
+                    <a class="item" href="./pages/about/testimonials.html"> Testimonials</a>
+                    <a class="item" href="./pages/about/inspection.html"> Inspection reports</a>
+                </div>
+            </div>
+            <div class="ui simple dropdown item">
                 Curriculum
-            </a>
-            <a class="item" href="./pages/history.html">
-                History
-            </a>
-            <a class="item" href="./pages/booklist.html">
-                Booklist
-            </a>
-            <a class="item" href="./pages/contact.html">
-                Contact
-            </a>
-            <a class="item" href="./pages/gallery.html">
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a class="item" href="./pages/curriculum/junior.html"> Junior cycle</a>
+                    <a class="item" href="./pages/curriculum/ty.html"> Transition year</a>
+                    <a class="item" href="./pages/curriculum/senior.html"> Senior cycle</a>
+                    <a class="item" href="./pages/curriculum/lcvp.html"> Leaving Cert Vocational Programme</a>
+                </div>
+            </div>
+            <a class="item" href="pages/gallery.html"> 
                 Gallery
             </a>
-            <a class="item" href="./pages/parents.html">
+            <a class="item" href="pages/contact.html">
+                Contact
+            </a>
+            <a class="item" href="pages/parents.html">
                 Parents
             </a>
+            <div class="ui simple dropdown item">
+                Extra-Curricular
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a class="item" href="pages/extra/football.html"> Football</a>
+                    <a class="item" href="pages/extra/hurling.html"> Hurling</a>
+                    <a class="item" href="pages/extra/basketball.html"> Basketball</a>
+                    <a class="item" href="pages/extra/choir.html"> Choir</a>
+                </div>
+            </div>
         </div>
-    </div>
-
     <br/>
     <div class="ui container">
         <div class="ui stackable grid">
