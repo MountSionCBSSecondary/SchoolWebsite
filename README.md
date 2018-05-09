@@ -1,31 +1,12 @@
 # Mountsion CBS Secondary Website
 
-![alt text](https://github.com/MountSionCBSSecondary/SchoolWebsite/tree/master/assets/images/Mount Sion Crest.jpg)
+![School Logo](assets/images/crest.jpg)
 
-This project is a website that is being made by 4 students from Mountsion CBS Secondary along with the help of RedHat Waterford. As time goes on more students will resume the work that we havn't finished and will continue to keep the website up to date.
+Mount Sion C.B.S school website, built and maintained by transition year students. This project teaches students the fundamentals of web design and development along with project management following the agile methodology.
 
 ## Getting Started
 
-If you wish to contribute to the project take some time to read our getting started guide here
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Here's how you can get set up
-
--First head to the repository, located at https://github.com/MountSionCBSSecondary/SchoolWebsite
-
--Then clone our repostory
-
-![alt text](https://github.com/MountSionCBSSecondary/SchoolWebsite/tree/master/assets/images/Screenshot from 2018-04-17 12-12-37.png)
-
-First you're going to click on "Clone or Download"
-
-Then proceed to copy the link
-
----
-
-Now open your terminal
-
-Type
-`git clone <url>`
+If you wish to contribute to the project take some time to read our [getting started tutorial](./docs/Tutorial.md).
 
 ## Built With
 
