@@ -1,0 +1,25 @@
+{
+  "name": "mountsion",
+  "version": "1.0.0",
+  "description": "School Website built and maintained by students of Mount Sion CBS",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:semantic": "npm install semantic-ui --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MountSionCBSSecondary/SchoolWebsite.git"
+  },
+  "author": "MountSionCBSSecondary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MountSionCBSSecondary/SchoolWebsite/issues"
+  },
+  "homepage": "https://github.com/MountSionCBSSecondary/SchoolWebsite#readme",
+  "dependencies": {
+    "semantic-ui": "^2.3.1"
+  }
+}
