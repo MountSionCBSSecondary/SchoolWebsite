@@ -1,9 +1,5 @@
-/*navbar*/
+/*body*/
 
-active {
-    background-color: #4CAF50;
+body {
+    background-image: url("../images/backg.jpg");
 }
-.ui inverted tabular menu:hover {
-    background-color: #172F5B;
-}
-
