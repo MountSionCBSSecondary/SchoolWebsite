@@ -2,6 +2,7 @@
 
 body {
     background-image: url("../images/backg.jpg");
+    background-size: cover;
 }
 
 div.ui.divbg.container {
