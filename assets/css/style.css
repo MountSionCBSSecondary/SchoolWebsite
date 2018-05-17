@@ -3,3 +3,8 @@
 body {
     background-image: url("../images/backg.jpg");
 }
+
+div.ui.divbg.container {
+    background-color:white;
+    padding:1em;
+}
