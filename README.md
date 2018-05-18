@@ -37,5 +37,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 From all the students involved we would like to thank all those who helped us with special mention to:
 
-* Redhat Waterford
+* [Redhat Waterford](https://twitter.com/redhatmobile)
 * Mountsion CBS Secondary, Particularly Mr. Kennedy and Mr. Galvin for giving us the time to do the website.
