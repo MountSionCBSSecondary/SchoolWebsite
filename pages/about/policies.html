@@ -11,6 +11,14 @@
     <script src="../../semantic/out/semantic.min.js"></script>
     <link rel="icon" href="../../assets/favicon.ico" type="assets/image/x-icon" />
 
+    <script>  function showModal(whichModal){
+      $('.ui.modal.' + whichModal).modal('show');
+      }
+    </script>
+       <script type="text/javascript">
+           function includeHTML(){
+                $("#childprotectioncontent").load("policies/childprotection.html");
+          }</script>
 </head>
 
 <body>
@@ -78,13 +86,14 @@
                 <p>
                   <b><i>Child Safeguarding Assessment of Risk of Mount Sion CBS Secondary School</i></b> In accordance with section 11 of the Children First Act 2015 and with the requirment of Chapter 8 of the <i>Child Protection Procedures for Primary and Post-Primary Schools 2017</i> the following is the written....
                 </p>
-                <div class="ui animated blue button" tabindex="0">
+                <div class="ui animated blue button" tabindex="0" onclick="showModal('childprotection')">
                   <div class="visible content">View More</div>
                   <div class="hidden content">
                     <i class="right arrow icon"></i>
                   </div>
                 </div>
               </div>
+
               <div class="column">
                 <h1 class="ui header">
                   SPHE
@@ -219,8 +228,21 @@
         </div>
     </div>
 
-</body>
+        <div class="ui modal childprotection">
+                <div class="header">
+                  Child Protection Policy
+                </div>
+                <div class = "content" ><div id="childprotectioncontent">stuff</div></div>
+                <div class="actions">
+                  <div class="ui black deny button">
+                    Back
+                  </div>
+                </div>
+              </div>
 
-</html>
+          <script type="text/javascript">includeHTML()</script>
+    </body>
+    </html>
+
 
 
