@@ -39,7 +39,7 @@
   line-height: 1.21428571em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.67857143em 1em;
-  background: #FFFFFF;
+  background: #fbfbfb;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
   border-radius: 0.28571429rem;
@@ -141,7 +141,7 @@
 .ui.input.focus > input,
 .ui.input > input:focus {
   border-color: #85B7D9;
-  background: #FFFFFF;
+  background: #fbfbfb;
   color: rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -227,7 +227,7 @@
 
 /* Transparent Inverted */
 .ui.transparent.inverted.input {
-  color: #FFFFFF;
+  color: #fbfbfb;
 }
 .ui.transparent.inverted.input > input {
   color: inherit;

@@ -59,7 +59,7 @@
      -moz-user-select: text;
       -ms-user-select: text;
           user-select: text;
-  color: #FFFFFF;
+  color: #fbfbfb;
 }
 
 /* Loose Coupling */
@@ -195,7 +195,7 @@ body.dimmable > .dimmer {
   background-color: rgba(255, 255, 255, 0.85);
 }
 .ui.inverted.dimmer > .content > * {
-  color: #FFFFFF;
+  color: #fbfbfb;
 }
 
 /*--------------

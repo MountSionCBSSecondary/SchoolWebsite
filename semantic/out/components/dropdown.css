@@ -356,7 +356,7 @@
           transform: rotateZ(0deg);
   min-width: 14em;
   min-height: 2.71428571em;
-  background: #FFFFFF;
+  background: #fbfbfb;
   display: inline-block;
   padding: 0.78571429em 2.1em 0.78571429em 1em;
   color: rgba(0, 0, 0, 0.87);
@@ -1258,7 +1258,7 @@ select.ui.dropdown {
   height: 0.5em;
   -webkit-box-shadow: -1px -1px 0px 0px rgba(34, 36, 38, 0.15);
           box-shadow: -1px -1px 0px 0px rgba(34, 36, 38, 0.15);
-  background: #FFFFFF;
+  background: #fbfbfb;
   z-index: 2;
 }
 .ui.pointing.dropdown > .menu:after {

@@ -27,7 +27,7 @@
   line-height: 1.21428571em;
   padding: 0.67857143em 1em;
   font-size: 1em;
-  background: #FFFFFF;
+  background: #fbfbfb;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0em 0em 0em 0em transparent inset;
@@ -176,7 +176,7 @@
 
 .ui.search > .prompt:focus {
   border-color: rgba(34, 36, 38, 0.35);
-  background: #FFFFFF;
+  background: #fbfbfb;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -356,7 +356,7 @@
 /* Category Result */
 .ui.category.search > .results .category .results {
   display: table-cell;
-  background: #FFFFFF;
+  background: #fbfbfb;
   border-left: 1px solid rgba(34, 36, 38, 0.15);
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
 }

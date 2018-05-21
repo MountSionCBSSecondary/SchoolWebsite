@@ -328,13 +328,13 @@
 
 .ui.menu .item > .label {
   background: #999999;
-  color: #FFFFFF;
+  color: #fbfbfb;
   margin-left: 1em;
   padding: 0.3em 0.78571429em;
 }
 .ui.vertical.menu .item > .label {
   background: #999999;
-  color: #FFFFFF;
+  color: #fbfbfb;
   margin-top: -0.15em;
   margin-bottom: -0.15em;
   padding: 0.3em 0.78571429em;
@@ -652,7 +652,7 @@ Floated Menu / Item
 
 /* Active */
 .ui.tabular.menu .active.item {
-  background: none #FFFFFF;
+  background: none #fbfbfb;
   color: rgba(0, 0, 0, 0.95);
   border-top-width: 1px;
   border-color: #D4D4D5;
@@ -695,7 +695,7 @@ Floated Menu / Item
   border-top: none;
 }
 .ui.bottom.tabular.menu .active.item {
-  background: none #FFFFFF;
+  background: none #fbfbfb;
   color: rgba(0, 0, 0, 0.95);
   border-color: #D4D4D5;
   margin: -1px 0px 0px 0px;
@@ -719,7 +719,7 @@ Floated Menu / Item
   border-right: none;
 }
 .ui.vertical.tabular.menu .active.item {
-  background: none #FFFFFF;
+  background: none #fbfbfb;
   color: rgba(0, 0, 0, 0.95);
   border-color: #D4D4D5;
   margin: 0px -1px 0px 0px;
@@ -744,7 +744,7 @@ Floated Menu / Item
   border-left: none;
 }
 .ui.vertical.right.tabular.menu .active.item {
-  background: none #FFFFFF;
+  background: none #fbfbfb;
   color: rgba(0, 0, 0, 0.95);
   border-color: #D4D4D5;
   margin: 0px 0px 0px -1px;
@@ -1034,7 +1034,7 @@ Floated Menu / Item
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.secondary.inverted.pointing.menu .header.item {
-  color: #FFFFFF !important;
+  color: #fbfbfb !important;
 }
 
 /* Hover */
@@ -1045,7 +1045,7 @@ Floated Menu / Item
 
 /* Active */
 .ui.secondary.inverted.pointing.menu .active.item {
-  border-color: #FFFFFF;
+  border-color: #fbfbfb;
   color: #ffffff;
 }
 
@@ -1228,7 +1228,7 @@ Floated Menu / Item
 
 /* Inverted */
 .ui.inverted.icon.menu .item {
-  color: #FFFFFF;
+  color: #fbfbfb;
 }
 
 /*--------------
@@ -1459,7 +1459,7 @@ Floated Menu / Item
 }
 .ui.inverted.vertical.menu .item .menu .active.item {
   background: transparent;
-  color: #FFFFFF;
+  color: #fbfbfb;
 }
 .ui.inverted.pointing.menu .active.item:after {
   background: #3D3E3F !important;
@@ -1473,7 +1473,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .active.item:hover {
   background: rgba(255, 255, 255, 0.15);
-  color: #FFFFFF !important;
+  color: #fbfbfb !important;
 }
 .ui.inverted.pointing.menu .active.item:hover:after {
   background: #3D3E3F !important;
@@ -1900,7 +1900,7 @@ Floated Menu / Item
   background-color: #F2F2F2;
 }
 .ui.vertical.pointing.menu .menu .active.item:after {
-  background-color: #FFFFFF;
+  background-color: #fbfbfb;
 }
 
 /*--------------
