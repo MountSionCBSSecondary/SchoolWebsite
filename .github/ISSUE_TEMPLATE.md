@@ -9,8 +9,3 @@
   1.
   1.
   1.
-
-## Specifications
-
-  - Core SDK Version:
-  - Relevant Service Modules:
