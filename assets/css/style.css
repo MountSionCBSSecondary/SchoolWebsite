@@ -10,3 +10,7 @@ div.ui.divbg.container {
     padding-top:1em;
 }
 
+.ui.grid>.testimonal.row {
+    padding-bottom: 3rem;
+}
+
