@@ -11,15 +11,16 @@
     <script src="../../semantic/out/semantic.min.js"></script>
     <link rel="icon" href="../../assets/favicon.ico" type="assets/image/x-icon" />
 
-    <script>  function showModal(whichModal){
-      $('.ui.modal.' + whichModal).modal('show');
+    <script>
+      function showModal(whichModal){
+        $('.ui.modal.' + whichModal).modal('show');
+      }
+      function includeHTML(){
+        $("#childprotectioncontent").load("policies/childprotection.html");
+        $("#sphecontent").load("policies/sphe.html")
       }
     </script>
-       <script type="text/javascript">
-           function includeHTML(){
-                $("#childprotectioncontent").load("policies/childprotection.html");
-                $("#sphecontent").load("policies/sphe.html")
-          }</script>
+
 </head>
 
 <body>
