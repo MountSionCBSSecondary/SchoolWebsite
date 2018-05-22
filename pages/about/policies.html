@@ -18,6 +18,7 @@
        <script type="text/javascript">
            function includeHTML(){
                 $("#childprotectioncontent").load("policies/childprotection.html");
+                $("#sphecontent").load("policies/sphe.html")
           }</script>
 </head>
 
@@ -103,7 +104,7 @@
                   <b><i>Social, Personal and Health Education: </i></b>"Mount Sion is a place where our children can develop physically, emotionally, intellectually and spiritually in a safe and caring environment". (Mission Statement)
                   Mount Sion, CBS., Waterford is a Catholic all boys secondary....
                 </p>
-                 <div class="ui animated blue button" tabindex="0">
+                 <div class="ui animated blue button" tabindex="0" onclick="showModal('sphe')">
                   <div class="visible content">View More</div>
                   <div class="hidden content">
                     <i class="right arrow icon"></i>
@@ -179,13 +180,26 @@
                 <div class="header">
                   Child Protection Policy
                 </div>
-                <div class = "content" ><div id="childprotectioncontent">stuff</div></div>
+                <div class = "content" ><div id="childprotectioncontent"></div></div>
                 <div class="actions">
-                  <div class="ui black deny button">
+                  <div class="ui blue deny button">
                     Back
                   </div>
                 </div>
               </div>
+
+        <div class="ui modal sphe">
+              <div class="header">
+                SPHE Policy
+              </div>
+              <div class = "content"><div id="sphecontent"></div></div>
+              <div class="actions">
+                <div class="ui blue deny button">
+                  Back
+                </div>
+              </div>
+              </div>
+
 
           <script type="text/javascript">includeHTML()</script>
     </body>
