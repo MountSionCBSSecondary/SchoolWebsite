@@ -18,10 +18,6 @@ div.ui.divbg.container {
     padding-bottom: 3rem;
 }
 
-    background-color:white;
-    padding-top:1em;
-}
-
 .twitter iframe {
     min-width:0px!important;
 }
