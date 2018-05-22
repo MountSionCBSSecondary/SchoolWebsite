@@ -30,7 +30,7 @@ This will kick off the build and then you will see the changes in your browser, 
 
 Please take some time to read [tutorial](docs/Tutorial.md) to familiarise yourself on how to approach getting set up and cloning the website. We also offer a guide on some common use cases you may encounter while using git, you can use our [guide](docs/git-commands.md) as a point of reference.
 
-The site is built using the Semantic UI Framework feel free to flick through their [doc's](https://semantic-ui.com/) if you are not familar with Semantic.
+The site is built using the Semantic UI Framework. Feel free to flick through their [doc's](https://semantic-ui.com/) if you are not familar with Semantic.
 
 ## Issue tracker
 
@@ -38,4 +38,4 @@ All Issues can be tracked in our GitHub Issues, if you find an issue or a bug pl
 
 ## Best practices
 
-As this is a learning project for the students of Mount Sion CBS, the best practices in web design and development will be inforced and encouraged at the PR level, it should also be noted this project is aimed for beginners and should be taken into account when reviewing work. 
+As this is a learning project for the students of Mount Sion CBS, the best practices in web design and development will be enforced and encouraged at the PR level, it should also be noted this project is aimed for beginners and should be taken into account when reviewing work. 
