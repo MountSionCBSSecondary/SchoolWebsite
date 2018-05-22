@@ -14,6 +14,12 @@ Once you have node installed you will need to download and install gulp globally
 npm install -g gulp
 ```
 
+With gulp installed globally, run the following from the root directory of the project:
+```
+npm install
+```
+This will install any dependencies needed.
+
 With that done, you can clone down the website, a guide on how to do this can be viewed [here](docs/Tutorial.md)
 
 If you wish to edit/customise the semantic frame work, you will need to navigate to `semantic/src/site/site.variables` here you can edit the color of blue or set other variables, see the semantic [docs](https://semantic-ui.com/usage/theming.html) for more info on this.
