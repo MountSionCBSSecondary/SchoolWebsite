@@ -10,6 +10,10 @@ div.ui.divbg.container {
     padding-top:1em;
 }
 
+.ui.link.list>a.item.white {
+	color: #fbfbfb;
+}
+
 .ui.grid>.testimonal.row {
     padding-bottom: 3rem;
 }
