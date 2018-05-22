@@ -7,5 +7,10 @@ body {
 
 div.ui.divbg.container {
     background-color:white;
-    padding:1em;
+    padding-top:1em;
 }
+
+.ui.grid>.testimonal.row {
+    padding-bottom: 3rem;
+}
+
