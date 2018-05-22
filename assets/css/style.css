@@ -9,3 +9,7 @@ div.ui.divbg.container {
     background-color:white;
     padding-top:1em;
 }
+
+.ui.link.list>a.item.white {
+	color: #fbfbfb;
+}
