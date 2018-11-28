@@ -26,6 +26,8 @@ A list of students from Mount Sion CBS who actively contribute to the project
 * **Maciej Marchel** [Github](https://github.com/maciejmarchel12)
 * **Dominik Kawka** [Github](https://github.com/dominikkawka)
 * **Kieran Hanrahan** [Github](https://github.com/kieranhanrahan)
+* **Evan Hearne** [Github](https://github.com/evanhearne)
+* **Denis Pop** [Github](https://github.com/denispop9)
 
 See also the list of [Contributors](https://github.com/MountSionCBSSecondary/SchoolWebsite/graphs/contributors) who participated in this project.
 
