@@ -16,7 +16,7 @@ How is this change being made
 
 ## Verification Steps
 
-What steps were taken to verify the change is working correctly
+What steps should be taken to verify that the change is working correctly
 
 
 # Checklist:
