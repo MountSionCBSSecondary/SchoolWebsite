@@ -11,6 +11,30 @@
     <script src="../../semantic/out/semantic.min.js"></script>
     <link rel="icon" href="../../assets/favicon.ico" type="assets/image/x-icon" />
 
+    <script>
+      function showModal(whichModal){
+        $('.ui.modal.' + whichModal).modal('show');
+      }
+      function includeHTML(){
+        $("#childprotectioncontent").load("policies/childprotection.html");
+        $("#sphecontent").load("policies/sphe.html");
+        $("#specialneedscontent").load("policies/specialneeds.html");
+        $("#dataprotectioncontent").load("policies/dataprotection.html");
+        $("#admissionscontent").load("policies/admissions.html");
+        $("#assesmentcontent").load("policies/assessment.html");
+        $("#attendanceparticipationcontent").load("policies/attendanceparticipation.html");
+        $("#antibullyingcontent").load("policies/antibullying.html");
+        $("#codeofbehaviourcontent").load("policies/codeofbehaviour.html");
+        $('#healthsafetycontent').load("policies/healthsafety.html");
+        $("#homeworkcontent").load("policies/homework.html");
+        $("#criticalincidentmanagementcontent").load("policies/criticalincidentmanagement.html");
+        $("#relationshipsexualeducationcontent").load("policies/relationshipsexualed.html");
+        $("#schoolorganisationcontent").load("policies/schoolorganisation.html");
+        $("#literacycontent").load("policies/literacy.html");
+        $("#tourcontent").load("policies/tour.html");
+      }
+    </script>
+
 </head>
 
 <body>
@@ -66,8 +90,263 @@
             </div>
         </div>
 
-        <br/>
-        <h1> Policies</h1>
+    <div class="ui padded basic segment">
+    <h1 class="ui block header center blue aligned"> School Policies</h1>
+
+        <div class="ui hidden section divider"></div>
+          <div class="ui stackable grid">
+
+          <!-- Start Row 1 -->
+            <div class="three column row">
+              <div class="column">
+                <h1 class="ui header">
+                  Child Protection
+                </h1>
+                <p>
+                  <b><i>Child Safeguarding Assessment of Risk of Mount Sion CBS Secondary School</i></b> "In accordance with section 11 of the Children First Act 2015 and with the requirment of Chapter 8 of the <i>Child Protection Procedures for Primary and Post-Primary Schools 2017</i> the following is the written..."
+                </p>
+
+                <div class="ui blue button" onclick="showModal('childprotection')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+
+              <div class="column">
+                <h1 class="ui header">
+                  SPHE
+                </h1>
+                <p>
+                  <b><i>Social, Personal and Health Education </i></b>"Mount Sion is a place where our children can develop physically, emotionally, intellectually and spiritually in a safe and caring environment. (Mission Statement)
+                  Mount Sion, CBS., Waterford is a Catholic all boys secondary..."
+                </p>
+                  <div class="ui blue button" onclick="showModal('sphe')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                  Special Needs
+                </h1>
+                <p>
+                  <b><i>Special Educational Needs Policy</i></b> "Mount Sion CBS Secondary School is an inclusive boys only school which values the abilities and achievements of all its pupils. The school strives to - maximise our pupils' academic potential - Nurture social, emotional and behavioural..."
+                </p>
+                <div class="ui blue button" onclick="showModal('specialneeds')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+            <!-- End Row 1 -->
+            <!-- Start Row 2 -->
+            <div class="three column row">
+              <div class="column">
+                <h1 class="ui header">
+                  Data Protection
+                </h1>
+                <p>
+                  <b><i>Data Protection Policy</i></b>
+"The school’s Data Protection Policy applies to the personal data held by the school which is protected by the Data Protection Acts 1988 and 2003.
+
+The policy applies to all school staff, the board of management..."
+                </p>
+                 <div class="ui blue button" onclick="showModal('dataprotection')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                  Admissions Policy
+                </h1>
+                <p>  
+                 <b><i>School Admissions Policy</i></b> "Mount Sion Secondary School is a Voluntary Catholic Secondary School for boys only operating under the Trusteeship of the Edmund Rice Schools Trust. The school recognises the special relationship that exists between Mount Sion Primary and..."
+                </p>
+               <div class="ui blue button" onclick="showModal('admissions')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                  Assessment Policy
+                </h1>
+                <p>
+                  <b><i>Assessment Policy</b></i> "Definition: The term 'Assessment' refers generally to the gathering and interpretation of information related to a student’s learning abilities, learning attainments, learning strengths and learning needs..."
+                </p>
+               <div class="ui blue button" onclick="showModal('assesment')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+            </div>
+            <!-- End Row 2 -->
+              <!-- Start Row 3 -->
+              <div class="three column row">
+              <div class="column">
+                <h1 class="ui header">
+                  Attendance and Participation Policy
+                </h1>
+                <p>
+                   <b><i>Attendance and Participation Policy</i></b> "Rationale: The policy is necessary to respond to the:
+    Legislative requirements of the Education Welfare Act 2002 which determines that the school must have an attendance policy
+    Role of the National Education Welfare Board
+    Requirements of the Department of Education and Skills..."
+                </p>
+                 <div class="ui blue button" onclick="showModal('attendanceparticipation')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                    Antibullying Policy
+                </h1>
+                <p>  
+                  Preview Content goes here
+                </p>
+               <div class="ui blue button" onclick="showModal('antibullying')">
+                       Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                  Code of Behaviour
+                </h1>
+                <p>
+                 <b><i>Code of Behaviour</i></b> "In the school situation a large number of people work together. Therefore, it is essential to have a high standard of: COURTESY CO-OPERATION RESPECT Negative comments about a person's creed, race or sexual orientation will not be tolerated and could lead to ..."
+                </p>
+               <div class="ui blue button" onclick="showModal('codeofbehaviour')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+            </div>
+
+                <!-- End Row 3 -->
+              <!-- Start Row 4 -->
+              <div class="three column row">
+              <div class="column">
+                <h1 class="ui header">
+                  Health and Safety Policy
+                </h1>
+                <p>
+                   Preview Content goes here
+                </p>
+                 <div class="ui blue button" onclick="showModal('healthsafety')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                    Homework
+                </h1>
+                <p>  
+                <strong><em>Homework Policy</em></strong> "Homework is given by teachers to reinforce the learning that has taken place in class the purpose of this document is to..."
+                </p>
+               <div class="ui blue button" onclick="showModal('homework')">
+                        Reda More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                  Critical Incident Management
+                </h1>
+                <p>
+                     <strong><em>Critical Incident Management Policy</em></strong> "Mount Sion CBS aims to protect the well-being of its students and staff by providing a safe and nurturing environment at all times. The following outlines the school&#39;s Critical Incident Management Plan..."
+
+                </p>
+               <div class="ui blue button" onclick="showModal('criticalincidentmanagement')">
+                     Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+            </div>
+
+                <!-- End Row 4 -->
+
+
+                 <!-- Start Row 5 -->
+              <div class="three column row">
+              <div class="column">
+                <h1 class="ui header">
+                  Relationship and Sexual Education
+                </h1>
+                <p>
+                   <strong><em>Relationship and Sexual Education Policy</em></strong> "Mount Sion is a Catholic boys school, founded by Blessed Edmund Rice in 1802. Its students are educated with Catholic values as laid down in the teaching of the Church. The school fosters the development of relationships based on the love of God and the love of every human being..."
+
+                </p>
+                 <div class="ui blue button" onclick="showModal('relationshipsexualeducation')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                    School Organisation
+                </h1>
+                <p>  
+                   <strong><em>School Organisation Policy</em></strong> "Mount Sion was founded by Edmund Rice in 1802. It was the first school founded by the Christian Brothers. The school has a proud tradition of educational service in Waterford and the surrounding areas..."
+                </p>
+               <div class="ui blue button" onclick="showModal('schoolorganisation')">
+                      Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                <h1 class="ui header">
+                  Secondary School Literacy
+                </h1>
+                <p>
+                    <strong><em>Secondary School Literacy Policy</em></strong> "Mount Sion CBS Secondary School is an inclusive boys&rsquo; only school which values the abilities and achievements of all its pupils. Our school accepts the fundamental principle that literacy is the key to improving learning and raising standards..."
+
+                </p>
+               <div class="ui blue button" onclick="showModal('literacy')">
+                         Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+            </div>
+
+                <!-- End Row 5 -->
+
+
+
+                 <!-- Start Row 5 -->
+              <div class="three column row">
+              <div class="column">
+                <h1 class="ui header">
+                  School Tour
+                </h1>
+                <p>
+                   <strong><em>Secondary School Tour Policy</em></strong> "Mount Sion CBS Secondary School has a duty of care to all its pupils and to school personnel. We seek to safeguard the welfare of pupils while on foreign school tours and also to support school personnel who accompany pupils..."
+                </p>
+                 <div class="ui blue button" onclick="showModal('tour')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                
+              </div>
+              <div class="column">
+                
+              </div>
+            </div>
+
+                <!-- End Row 5 -->
+
+
+
+
+          </div>
+          <div class="ui hidden divider"></div>
+        </div>
     </div>
 
     <div class="ui inverted blue vertical container footer segment">
@@ -76,32 +355,32 @@
             <div class="ui stackable divided grid">
                 <div class="four wide column">
                     <div class="ui link list">
-                        <a href="https://mountsion.vsware.ie/Login.jsp" class="item white">
-                            Vs Ware
+                        <a href="https://mountsion.vsware.ie/Login.jsp" target="blank" class="item white">
+                            VSWare
                         </a>
                         <a href="mailto:info@mountsioncbssecondary.ie" target="_top" class="item white">
                             Email
                         </a>
-                        <a href="https://www.education.ie/en/" class="item white">
+                        <a href="https://www.education.ie/en/" target="blank" class="item white">
                             Department of Education
                         </a>
-                        <a href="https://www.examinations.ie" class="item white">
+                        <a href="https://www.examinations.ie" target="blank" class="item white">
                             State Exams Commission
                         </a>
                     </div>
                 </div>
                 <div class="four wide column">
                     <div class="ui link list">
-                        <a href="http://www.pdst.ie" class="item white">
+                        <a href="http://www.pdst.ie" target="blank" class="item white">
                             P.D.S.T
                         </a>
-                        <a href="http://www.ncca.ie" class="item white">
+                        <a href="http://www.ncca.ie" target="blank" class="item white">
                             N.C.C.A
                         </a>
-                        <a href="http://www.ncca.ie/en/junior-cycle" class="item white">
+                        <a href="http://www.ncca.ie/en/junior-cycle" target="blank" class="item white">
                             NCCA Junior Cycle
                         </a>
-                        <a href="http://www.ncca.ie/en/senior-cycle" class="item white">
+                        <a href="http://www.ncca.ie/en/senior-cycle" target="blank" class="item white">
                             NCCA Senior Cycle
                         </a>
                     </div>
@@ -116,14 +395,224 @@
             </div>
             <div class="ui section divider"></div>
                 <div class="ui horizontal inverted small link list">
-                    <a class="item white" href="https://www.facebook.com/mountsioncbs/"><i class="large facebook square icon"></i></a>
-                    <a class="item white" href="https://twitter.com/mountsion_cbs?lang=en"><i class="large twitter square icon"></i></a>
+                    <a class="item white" href="https://www.facebook.com/mountsioncbs/" target="blank">
+                      <i class="large facebook square icon"></i></a>
+                    <a class="item white" href="https://twitter.com/mountsion_cbs?lang=en" target="blank">
+                      <i class="large twitter square icon"></i></a>
                     <p><sub>All rights reserved Mount Sion CBS</sub></p>
                 </div>
             </div>
         </div>
     </div>
 
-</body>
+<!-- Modal Code below - Only visible when Modals are viewed -->
 
-</html>
+    <div class="ui modal childprotection">
+        <div class="header">
+          Child Protection Policy
+        </div>
+        <div class = "content" ><div id="childprotectioncontent"></div></div>
+        <div class="actions">
+          <div class="ui blue deny button">
+            Back
+          </div>
+        </div>
+      </div>
+
+      <div class="ui modal sphe">
+            <div class="header">
+              SPHE Policy
+            </div>
+            <div class = "content"><div id="sphecontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+
+        <div class="ui modal specialneeds">
+            <div class="header">
+              Special Needs Policy
+            </div>
+            <div class = "content"><div id="specialneedscontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+
+                    <div class="ui modal dataprotection">
+            <div class="header">
+              Data Protection Policy
+            </div>
+            <div class = "content"><div id="dataprotectioncontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+            <div class="ui modal admissions">
+            <div class="header">
+              Admissions Policy
+            </div>
+            <div class = "content"><div id="admissionscontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+            <div class="ui modal assesment">
+            <div class="header">
+              Assement Policy
+            </div>
+            <div class = "content"><div id="assesmentcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+            <div class="ui modal attendanceparticipation">
+            <div class="header">
+              Attendance and Participation Policy
+            </div>
+            <div class = "content"><div id="attendanceparticipationcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+            <div class="ui modal antibullying">
+            <div class="header">
+              Anti Bullying Policy
+            </div>
+            <div class = "content"><div id="antibullyingcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+          <div class="ui modal codeofbehaviour">
+            <div class="header">
+              Code of Behaviour
+            </div>
+            <div class = "content"><div id="codeofbehaviourcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+
+          <div class="ui modal healthsafety">
+            <div class="header">
+               Health and Safety Policy
+            </div>
+            <div class = "content"><div id="healthsafetycontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+           <div class="ui modal homework">
+            <div class="header">
+               Homework Policy
+            </div>
+            <div class = "content"><div id="homeworkcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+
+           <div class="ui modal criticalincidentmanagement">
+            <div class="header">
+               Critical Incident Management Policy
+            </div>
+            <div class = "content"><div id="criticalincidentmanagementcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+
+           <div class="ui modal relationshipsexualeducation">
+            <div class="header">
+               Relationship and Sexual Education Policy
+            </div>
+            <div class = "content"><div id="relationshipsexualeducationcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+            <div class="ui modal schoolorganisation">
+            <div class="header">
+               School Organisation
+            </div>
+            <div class = "content"><div id="schoolorganisationcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+            <div class="ui modal literacy">
+            <div class="header">
+               Secondary School Literacy Policy
+            </div>
+            <div class = "content"><div id="literacycontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+            <div class="ui modal tour">
+            <div class="header">
+               Secondary School Tour Policy
+            </div>
+            <div class = "content"><div id="tourcontent"></div></div>
+            <div class="actions">
+              <div class="ui blue deny button">
+                Back
+              </div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+          <script type="text/javascript">includeHTML()</script>
+    </body>
+    </html>
+
+
