@@ -10,62 +10,18 @@
         crossorigin="anonymous"></script>
     <script src="../../semantic/out/semantic.min.js"></script>
     <link rel="icon" href="../../assets/favicon.ico" type="assets/image/x-icon" />
-
+<script>
+    $(document).ready(function() {
+        $('#navbar').load('../about/navigation.html');
+    });
+</script>
 </head>
 
 <body>
 
     <div class="ui divbg container">
         <img class="ui centered image" src="../../assets/images/logo.jpg" height="128px">
-
-        <div class="stackable ui inverted blue tabular menu">
-            <a class="item" href="../../index.html">
-                Home
-            </a>
-            <div class="ui simple dropdown item">
-                About
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="../about/history.html"> History</a>
-                    <a class="item" href="../about/mission.html"> Mission statement</a>
-                    <a class="item" href="../about/staff.html"> Staff</a>
-                    <a class="item" href="../about/policies.html"> School Policies</a>
-                    <a class="item" href="../about/testimonials.html"> Testimonials</a>
-                    <a class="item" href="..about/inspection.html"> Inspection reports</a>
-                    <a class="item" href="./pages/about/Calendar.html">School Calendar</a>
-                </div>
-            </div>
-            <div class="ui simple dropdown item">
-                Curriculum
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="junior.html"> Junior cycle</a>
-                    <a class="item" href="ty.html"> Transition year</a>
-                    <a class="item" href="senior.html"> Senior cycle</a>
-                    <a class="item" href="lcvp.html"> Leaving Cert Vocational Programme</a>
-                </div>
-            </div>
-            <a class="item" href="../gallery.html">
-                Gallery
-            </a>
-            <a class="item" href="../contact.html">
-                Contact
-            </a>
-            <a class="item" href="../parents.html">
-                Parents
-            </a>
-            <div class="ui simple dropdown item">
-                Extra-Curricular
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="../extra/football.html"> Football</a>
-                    <a class="item" href="../extra/hurling.html"> Hurling</a>
-                    <a class="item" href="../extra/basketball.html"> Basketball</a>
-                    <a class="item" href="../extra/choir.html"> Choir</a>
-                </div>
-            </div>
-        </div>
-
+<div id="navbar"></div>
         <div class="ui padded basic segment">
             <h1 class="ui block header center blue aligned">Senior Curriculum</h1>
             <div class="ui hidden section divider"></div>
