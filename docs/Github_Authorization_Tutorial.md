@@ -14,7 +14,7 @@
 
 - Then, type ssh-add ~/.ssh/id_rsa and press Enter
 
-## 3) Adding SSH file to GitHub#
+## 3) Adding SSH file to GitHub
 
 - In the Terminal, type "cd ~/.ssh" and press Enter
 
