@@ -32,6 +32,7 @@
         $("#schoolorganisationcontent").load("policies/schoolorganisation.html");
         $("#literacycontent").load("policies/literacy.html");
         $("#tourcontent").load("policies/tour.html");
+        $("#auppolicy").load("policies/AUP.html");
       }
     </script>
 
@@ -340,7 +341,29 @@ The policy applies to all school staff, the board of management..."
 
                 <!-- End Row 5 -->
 
+                 <!-- Start Row 5 -->
+              <div class="three column row">
+              <div class="column">
+                <h1 class="ui header">
+                  AUP Policy
+                </h1>
+                <p>
+                   <strong><em>AUP Policy</em></strong> "The aim of this acceptable usage policy (AUP) is to ensure that students get maximum benefit from the learning opportunities offered by the school’s ICT and internet resources in a safe and responsible manner..."
+                </p>
+                 <div class="ui blue button" onclick="showModal('tour')">
+                        Read More
+                        <i class="right arrow icon"></i>
+                </div>
+              </div>
+              <div class="column">
+                
+              </div>
+              <div class="column">
+                
+              </div>
+            </div>
 
+                <!-- End Row 5 -->
 
 
           </div>
@@ -602,7 +625,17 @@ The policy applies to all school staff, the board of management..."
               </div>
             </div>
             </div>
-
+<div class="ui modal auppolicy">
+  <div class="header">
+    AUP Policy
+  </div>
+  <div class="content"><div id="auppolicy"></div></div>
+  <div class="actions">
+    <div class="ui blue deny button">
+      Back
+    </div>
+  </div>
+</div>
 
 
 
