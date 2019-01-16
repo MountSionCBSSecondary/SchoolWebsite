@@ -1,64 +1,53 @@
-How to authorise Fedora for work\
-on GitHub\
-1) Generate RSA files
+##How to authorise Fedora for work on GitHub##
 
-● In Fedora, go to Applications → Utilities →\
-Terminal
+#1) Generate RSA files#
 
-● Type "ssh-keygen -t rsa -b 4096 -C\
-\<your\_email\@example.com\>" and press Enter\
-twice
+- In Fedora, go to Applications → Utilities → Terminal
 
-● Press Enter twice again\
+- Type "ssh-keygen -t rsa -b 4096 -C <your_email@example.com>" and press Enter twice
 
-2) Add your SSH key to the SSH\
-Agent\
-● In Terminal, type eval "\$(ssh-agent -s)" and\
-press Enter
+- Press Enter twice again
 
-● Then, type ssh-add \~/.ssh/id\_rsa and press\
-Enter\
+#2) Add your SSH key to the SSH Agent#
 
-3) Adding SSH file to GitHub
+- In Terminal, type "eval $(ssh-agent -s)" and press Enter
 
-● In the Terminal, type "cd \~/.ssh" and press Enter
+- Then, type ssh-add ~/.ssh/id_rsa and press Enter
 
-● Then type "vi id\_rsa.pub" and press Enter
+#3) Adding SSH file to GitHub#
 
-● Copy all of the file's contents
+- In the Terminal, type "cd ~/.ssh" and press Enter
 
-● Then hold down the SHIFT key and tap the\
-colon key, release SHIFT key and type "wq" and\
-press Enter
+- Then type "vi id_rsa.pub" and press Enter
 
-● Go to GitHub.com and login\
+- Copy all of the file's contents
 
-4) Adding SSH to GitHub
+- Then hold down the SHIFT key and tap the colon key, release SHIFT key and type "wq" and press Enter
 
-● After login click on your profile picture and\
-Settings
+- Go to GitHub.com and login
 
-● Navigate to SSH Keys Settings
+#4) Adding SSH to GitHub#
 
-● Add a New SSH Key
+- After login click on your profile picture and Settings
 
-● Choose your own title and paste the copied\
-contents of id\_rsa.pub into the Key section and\
-save\
-5) Initialize Authorization
+- Navigate to SSH Keys Settings
 
-● Create a repo/fork
+- Add a New SSH Key
 
-● Click on Clone/Download
+- Choose your own title and paste the copied contents of id_rsa.pub into the Key section and save
 
-● Clone as SSH
+#5) Initialize Authorization#
 
-● Use the copy button to the side of the Text
+- Create a repo/fork
 
-● In Terminal, type git clone and copy in copied\
-text
+- Click on Clone/Download
 
-● If prompted, type yes to everything
+- Clone as SSH
 
-● Congratulations, you have successfully\
-authorised your computer for GitHub!
+- Use the copy button to the side of the Text
+
+- In Terminal, type git clone and copy in copied text
+
+- If prompted, type yes to everything
+
+- Congratulations, you have successfully authorised your computer for GitHub!
