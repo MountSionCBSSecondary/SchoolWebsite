@@ -1,6 +1,6 @@
-##How to authorise Fedora for work on GitHub##
+# How to authorise Fedora for work on GitHub
 
-#1) Generate RSA files#
+## 1) Generate RSA files
 
 - In Fedora, go to Applications → Utilities → Terminal
 
@@ -8,13 +8,13 @@
 
 - Press Enter twice again
 
-#2) Add your SSH key to the SSH Agent#
+## 2) Add your SSH key to the SSH Agent
 
 - In Terminal, type "eval $(ssh-agent -s)" and press Enter
 
 - Then, type ssh-add ~/.ssh/id_rsa and press Enter
 
-#3) Adding SSH file to GitHub#
+## 3) Adding SSH file to GitHub#
 
 - In the Terminal, type "cd ~/.ssh" and press Enter
 
@@ -26,7 +26,7 @@
 
 - Go to GitHub.com and login
 
-#4) Adding SSH to GitHub#
+## 4) Adding SSH to GitHub
 
 - After login click on your profile picture and Settings
 
@@ -36,7 +36,7 @@
 
 - Choose your own title and paste the copied contents of id_rsa.pub into the Key section and save
 
-#5) Initialize Authorization#
+## 5) Initialize Authorization
 
 - Create a repo/fork
 
