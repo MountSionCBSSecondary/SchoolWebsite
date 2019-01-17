@@ -7,6 +7,7 @@ Mount Sion C.B.S school website, built and maintained by transition year student
 ## Getting Started
 
 If you wish to contribute to the project take some time to read our [getting started tutorial](./docs/Tutorial.md).
+If you wish to set up a local server take some time to read our [http-server tutorial](./docs/verification-steps.md).
 
 ## Built With
 
