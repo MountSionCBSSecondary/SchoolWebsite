@@ -1,141 +1,93 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Mount Sion CBS Secondary School</title>
-
-    <link rel="stylesheet" type="text/css" href="../../semantic/out/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
-    <script src="../../semantic/out/semantic.min.js"></script>
-    <link rel="icon" href="../../assets/favicon.ico" type="assets/image/x-icon" />
-
+    <link href="../../semantic/out/semantic.min.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="../../semantic/out/semantic.min.js">
+    </script>
+    <link href="../../assets/favicon.ico" rel="icon" type="assets/image/x-icon">
+    <script>
+       $(document).ready(function() {
+           $('#navbar').load('navigation.html');
+       });
+    </script>
 </head>
-
 <body>
-
     <div class="ui divbg container">
-        <img class="ui centered image" src="../../assets/images/logo.jpg" height="128px">
-
-        <div class="stackable ui inverted blue tabular menu">
-            <a class="item" href="../../index.html">
-                Home
-            </a>
-            <div class="ui simple dropdown item">
-                About
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="history.html"> History</a>
-                    <a class="item" href="mission.html"> Mission statement</a>
-                    <a class="item" href="staff.html"> Staff</a>
-                    <a class="item" href="policies.html"> School Policies</a>
-                    <a class="item" href="testimonials.html"> Testimonials</a>
-                    <a class="item" href="inspection.html"> Inspection reports</a>
-                    <a class="item" href="./pages/about/Calendar.html">School Calendar</a>
-                </div>
-            </div>
-            <div class="ui simple dropdown item">
-                Curriculum
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="../curriculum/junior.html"> Junior cycle</a>
-                    <a class="item" href="../curriculum/ty.html"> Transition year</a>
-                    <a class="item" href="../curriculum/senior.html"> Senior cycle</a>
-                    <a class="item" href="../curriculum/lcvp.html"> Leaving Cert Vocational Programme</a>
-                </div>
-            </div>
-            <a class="item" href="../gallery.html">
-                Gallery
-            </a>
-            <a class="item" href="../contact.html">
-                Contact
-            </a>
-            <a class="item" href="../parents.html">
-                Parents
-            </a>
-            <div class="ui simple dropdown item">
-                Extra-Curricular
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="../extra/football.html"> Football</a>
-                    <a class="item" href="../extra/hurling.html"> Hurling</a>
-                    <a class="item" href="../extra/basketball.html"> Basketball</a>
-                    <a class="item" href="../extra/choir.html"> Choir</a>
-                </div>
-            </div>
-        </div>
-
-        
+        <img class="ui centered image" height="128px" src="../../assets/images/logo.jpg">
+        <div id="navbar"></div>
         <div class="ui padded basic segment">
-        <h1 class="ui block header center blue aligned">Testimonials</h1>
-        <div class="ui hidden section divider"></div>
-          <div class="ui stackable grid">
+            <h1 class="ui block header center blue aligned">Testimonials</h1>
+            <div class="ui hidden section divider"></div>
+            <div class="ui stackable grid">
                 <div class="two column testimonal row">
                     <div class="column">
-                        <h1 class="ui header">
-                            Leigh Griffin
-                            <div class="sub header">Software Engineering Manager, RedHat Mobile Waterford</div>
-                        </h1>
-                        <p>I had the privilege of attending Mount Sion from 1998 to 2003 and I had the honour of finishing with the Sar Bhuchaill na Scoila which still takes pride of place in my parents house. I was the 3rd generation of my family to go to Mt Sion, with both of my grandfathers having attended as well as my own father and indeed my own brother. Mount Sion is in the blood of our family . . .</p>
+                        <h1 class="ui header">Leigh Griffin</h1>
+                        <div class="sub header">
+                            <h1 class="ui header">Software Engineering Manager, RedHat Mobile Waterford</h1>
+                        </div>
+                        <p>I had the privilege of attending Mount Sion from 1998 to 2003 and I had the honour of finishing with the Sar Bhuchaill na Scoila which still takes pride of place in my parents house. I was
+                        the 3rd generation of my family to go to Mt Sion, with both of my grandfathers having attended as well as my own father and indeed my own brother. Mount Sion is in the blood of our family . .
+                        .</p>
                         <div class="ui blue button" id="testimonial1">
-                            Read More
-                            <i class="right arrow icon"></i>
+                            Read More <i class="right arrow icon"></i>
                         </div>
                     </div>
-
                     <div class="column">
-                            <h1 class="ui header">
-                                David Burke 
-                                <div class="sub header">Founder of David Burke Clinic and Celtic Nutrition</div>
-                            </h1>
-                            <p>My first and fondest memories of Mount Sion was been taught a song by Brother Heffernan. This song taught me the importance of respecting our elders and contributing to society. This has been so valuable to me in both my professional and personal life. Mount Sion was and is an extension of my family. The dedicted teachers who taught me have become friends . . .</p>
-                            <div class="ui blue button" id="testimonial2">
-                                    Read More
-                                    <i class="right arrow icon"></i>
-                                </div>
+                        <h1 class="ui header">David Burke</h1>
+                        <div class="sub header">
+                            <h1 class="ui header">Founder of David Burke Clinic and Celtic Nutrition</h1>
                         </div>
+                        <p>My first and fondest memories of Mount Sion was been taught a song by Brother Heffernan. This song taught me the importance of respecting our elders and contributing to society. This has
+                        been so valuable to me in both my professional and personal life. Mount Sion was and is an extension of my family. The dedicted teachers who taught me have become friends . . .</p>
+                        <div class="ui blue button" id="testimonial2">
+                            Read More <i class="right arrow icon"></i>
+                        </div>
+                    </div>
                 </div>
                 <div class="three column testimonal row">
                     <div class="column">
-                            <h1 class="ui header">
-                                Dermot O&#39Byrne
-                                <div class="sub header">John P O&#39;	Donohoe and Co Solicitors </div>
-                            </h1>
-                            <p>I attended both Mount Sion Primary and Secondary schools and have so many treasured memories of my time there. I recall once being told in Secondary school that school days would be the best days of my life and even though this seemed to be bizarre at the time, it turned out to be 100% correct. The friends that I made in Mount Sion are still my good friends today. . .</p>
-                            <div class="ui blue button" id="testimonial3">
-                                    Read More
-                                    <i class="right arrow icon"></i>
-                                </div>
+                        <h1 class="ui header">Dermot O&#39;Byrne</h1>
+                        <div class="sub header">
+                            <h1 class="ui header">John P O&#39; Donohoe and Co Solicitors </h1>
                         </div>
+                        <p>I attended both Mount Sion Primary and Secondary schools and have so many treasured memories of my time there. I recall once being told in Secondary school that school days would be the best
+                        days of my life and even though this seemed to be bizarre at the time, it turned out to be 100% correct. The friends that I made in Mount Sion are still my good friends today. . .</p>
+                        <div class="ui blue button" id="testimonial3">
+                            Read More <i class="right arrow icon"></i>
+                        </div>
+                    </div>
                     <div class="column">
-                            <h1 class="ui header">
-                                John Quinn
-                                <div class="sub header">Games Development Administrator</div>
-                            </h1>
-                            <p>As a former student of Mount Sion C.B.S. and returning there in my capacity as Games Development Administrator for Cumann Luthcleas Gael Phort L&aacute;irge, I was thrilled to see the positive changes made in the school in terms of its development and openness to providing its students with extracurricular activities. The development of its new AstroTurf is proof of the. . .</p>
-                                </p>
-                            <div class="ui blue button" id="testimonial4">
-                                    Read More
-                                    <i class="right arrow icon"></i>
-                                </div>
+                        <h1 class="ui header">John Quinn</h1>
+                        <div class="sub header">
+                            <h1 class="ui header">Games Development Administrator</h1>
                         </div>
-                        <div class="column">
-                                <h1 class="ui header">
-                                    Jim Nolan
-                                    <div class="sub header">Artistic Director of Red Kettle Theatre Company</div>
-                                </h1>
-                                <p>&#34;I was a student at Mount Sion from 1971 until 1975 and owe the school a huge debt of gratitude for a series of significant interventions which, though I could not have known it at the time, went on to shape the course of my life. In 1972, I was summoned to the Principal, Brother Brereton&#39;	s office and shocked by the instruction to write a sketch for a . . .</p>
-                                <div class="ui blue button" id="testimonial5">
-                                        Read More
-                                        <i class="right arrow icon"></i>
-                                    </div>
-                            </div>
+                        <p>As a former student of Mount Sion C.B.S. and returning there in my capacity as Games Development Administrator for Cumann Luthcleas Gael Phort L&aacute;irge, I was thrilled to see the
+                        positive changes made in the school in terms of its development and openness to providing its students with extracurricular activities. The development of its new AstroTurf is proof of the. .
+                        .</p>
+                        <p></p>
+                        <div class="ui blue button" id="testimonial4">
+                            Read More <i class="right arrow icon"></i>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h1 class="ui header">Jim Nolan</h1>
+                        <div class="sub header">
+                            <h1 class="ui header">Artistic Director of Red Kettle Theatre Company</h1>
+                        </div>
+                        <p>&#34;I was a student at Mount Sion from 1971 until 1975 and owe the school a huge debt of gratitude for a series of significant interventions which, though I could not have known it at the
+                        time, went on to shape the course of my life. In 1972, I was summoned to the Principal, Brother Brereton&#39; s office and shocked by the instruction to write a sketch for a . . .</p>
+                        <div class="ui blue button" id="testimonial5">
+                            Read More <i class="right arrow icon"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="ui info event-modal modal" data-object="testimonial1">
         <i class="close icon"></i>
         <div class="ui header">
@@ -143,9 +95,26 @@
         </div>
         <div class="content">
             <div class="description">
-            <div class="ui header">Testimonial</div>
-            <p>I had the privilege of attending Mount Sion from 1998 to 2003 and I had the honour of finishing with the Saor Buchaill na Scoila which still takes pride of place in my parents house. I was the 3rd generation of my family to go to Mt Sion, with both of my grandfathers having attended as well as my own father and indeed my own brother. Mount Sion is in the blood of our family and I was delighted to continue that trend and one day it would be great to send a 4th generation of our family there. During my time in the school a pioneering subject was being offered that no other school in the county or possibly even the country was offering at the time. Computer Science. Under the guidance of Mr. Murphy we spent 3 years learning about the history of the computer, working with electronic breadboards and learning how to program in Visual Basic. I learned enough in those 3 years to develop a curiosity about Computing that would lead my career choices towards Applied Computing in WIT. It was a risk going into Computing in 2003, when the industry was still finding its feet.  I had the points from my Leaving Cert to pursue almost any course in any university or college, but through strong career guidance and support from the teachers of Mount Sion I went ahead and attended my local college and emerged 4 years later with a 1st Class Honours degree. While in Mount Sion 2 passions of mine were English and History, both of which I excelled at in my Leaving Cert. My next career choice, to move into research and pursue my Doctorate was largely taken by the joy and experience I had in Mount Sion while learning those subjects. Research leans a lot on the creative nature, being able to express that creativity and being able to delve into the past to figure out what the future might look like. I had the perfect platform from my school days to take on this monumental task and in 2012 I graduated as Dr. Leigh Griffin. As a token of my appreciation I donated my thesis to the school in a wonderful ceremony and I am honoured every time I walk past the trophy cabinet to see that my thesis is there and presented to the boys of Mount Sion. Since graduation I have worked within the industry as a Software Engineer and received several promotions which have led me to my current role as an Engineering Manager in Red Hat. I look after 17 staff, scattered around the globe from Rio de Janeiro to Istanbul and several countries in between. I helped kick start our Community Outreach program and I choose Mount Sion as a school to partner with and help the next generation of students. I was lucky enough to have a visionary like Mr. Murphy but now the school has several outstanding teachers with similar visionary skills. Through the collaboration of my team and the teachers of Mount Sion, we have helped visualise what it means to work in a STEM industry and be a computer programmer. We share internally the great stories and the students who come on work placement get to experience our company which in turn allows the 17 staff scattered around the world understand, share in and experience the special school that is Mount Sion.
-                </p>
+                <div class="ui header">
+                    Testimonial
+                </div>
+                <p>I had the privilege of attending Mount Sion from 1998 to 2003 and I had the honour of finishing with the Saor Buchaill na Scoila which still takes pride of place in my parents house. I was the
+                3rd generation of my family to go to Mt Sion, with both of my grandfathers having attended as well as my own father and indeed my own brother. Mount Sion is in the blood of our family and I was
+                delighted to continue that trend and one day it would be great to send a 4th generation of our family there. During my time in the school a pioneering subject was being offered that no other
+                school in the county or possibly even the country was offering at the time. Computer Science. Under the guidance of Mr. Murphy we spent 3 years learning about the history of the computer, working
+                with electronic breadboards and learning how to program in Visual Basic. I learned enough in those 3 years to develop a curiosity about Computing that would lead my career choices towards Applied
+                Computing in WIT. It was a risk going into Computing in 2003, when the industry was still finding its feet. I had the points from my Leaving Cert to pursue almost any course in any university or
+                college, but through strong career guidance and support from the teachers of Mount Sion I went ahead and attended my local college and emerged 4 years later with a 1st Class Honours degree. While
+                in Mount Sion 2 passions of mine were English and History, both of which I excelled at in my Leaving Cert. My next career choice, to move into research and pursue my Doctorate was largely taken
+                by the joy and experience I had in Mount Sion while learning those subjects. Research leans a lot on the creative nature, being able to express that creativity and being able to delve into the
+                past to figure out what the future might look like. I had the perfect platform from my school days to take on this monumental task and in 2012 I graduated as Dr. Leigh Griffin. As a token of my
+                appreciation I donated my thesis to the school in a wonderful ceremony and I am honoured every time I walk past the trophy cabinet to see that my thesis is there and presented to the boys of
+                Mount Sion. Since graduation I have worked within the industry as a Software Engineer and received several promotions which have led me to my current role as an Engineering Manager in Red Hat. I
+                look after 17 staff, scattered around the globe from Rio de Janeiro to Istanbul and several countries in between. I helped kick start our Community Outreach program and I choose Mount Sion as a
+                school to partner with and help the next generation of students. I was lucky enough to have a visionary like Mr. Murphy but now the school has several outstanding teachers with similar visionary
+                skills. Through the collaboration of my team and the teachers of Mount Sion, we have helped visualise what it means to work in a STEM industry and be a computer programmer. We share internally
+                the great stories and the students who come on work placement get to experience our company which in turn allows the 17 staff scattered around the world understand, share in and experience the
+                special school that is Mount Sion.</p>
             </div>
         </div>
         <div class="actions">
@@ -154,156 +123,150 @@
             </div>
         </div>
     </div>
-
     <div class="ui info event-modal modal" data-object="testimonial2">
-            <i class="close icon"></i>
-            <div class="ui header">
-                David Burke
-            </div>
-            <div class="content">
-                <div class="description">
-                <div class="ui header">Testimonial</div>
-                <p>My first and fondest memories of Mount Sion was been taught a song by Brother Heffernan. THis song taught me the importance of respecting our elders and contributing to society. This has been so valuable to me in both my professional and personal life. Mount Sion was and is an extension of my family. The dedicted teachers who taught me have become friend. The friends I met during my Mount Sion years have become like brothers. Thanks to Mount Sion I did very well in Science, Art and Athletic. I don't think I would have ever worked for myself without the confidence I attained from the Christian Brothers and Teachers of Mount Sion</p>
+        <i class="close icon"></i>
+        <div class="ui header">
+            David Burke
+        </div>
+        <div class="content">
+            <div class="description">
+                <div class="ui header">
+                    Testimonial
+                </div>
+                <p>My first and fondest memories of Mount Sion was been taught a song by Brother Heffernan. THis song taught me the importance of respecting our elders and contributing to society. This has been
+                so valuable to me in both my professional and personal life. Mount Sion was and is an extension of my family. The dedicted teachers who taught me have become friend. The friends I met during my
+                Mount Sion years have become like brothers. Thanks to Mount Sion I did very well in Science, Art and Athletic. I don't think I would have ever worked for myself without the confidence I attained
+                from the Christian Brothers and Teachers of Mount Sion</p>
                 <p>I am extremely proud of Mount Sion, Cnoc Sion and still have my school tie hanging up in my wardrobe, and when I walk past the school I stand tall.</p>
             </div>
-            </div>
-            <div class="actions">
-                <div class="ui blue deny button">
-                    Back
-                </div>
+        </div>
+        <div class="actions">
+            <div class="ui blue deny button">
+                Back
             </div>
         </div>
-
+    </div>
     <div class="ui info event-modal modal" data-object="testimonial3">
-            <i class="close icon"></i>
-            <div class="ui header">
-                Dermot O`Byrne
-            </div>
-            <div class="content">
-                <div class="description">
-                <div class="ui header">Testimonial</div>
-                <p>I attended both Mount Sion Primary and Secondary schools and have so many treasured memories of my time there. I recall once being told in Secondary school that school days would be the best days of my life and even though this seemed to be bizarre at the time, it turned out to be 100% correct. The friends that I made in Mount Sion are still my good friends today</p>
+        <i class="close icon"></i>
+        <div class="ui header">
+            Dermot O`Byrne
+        </div>
+        <div class="content">
+            <div class="description">
+                <div class="ui header">
+                    Testimonial
+                </div>
+                <p>I attended both Mount Sion Primary and Secondary schools and have so many treasured memories of my time there. I recall once being told in Secondary school that school days would be the best
+                days of my life and even though this seemed to be bizarre at the time, it turned out to be 100% correct. The friends that I made in Mount Sion are still my good friends today</p>
                 <p>Each time I hear Mount Sion mentioned I have such a sense of pride and appreciation, and it was a privilege to have attended the school.</p>
                 <p>The small class sizes coupled with enthusiastic teachers sharing their knowledge is no doubt a huge attribute and attraction.</p>
-                <p>The school has always focused on developing other qualities beyond the formal curriculum. The hidden curriculum played a significant part in my education and helped me reach my potential. I am certain my attending Mount Sion helped me be the young man I am today, I am glad I went to Mount Sion and I cannot recommend the school highly enough.</p>
-            </div>
-            </div>
-            <div class="actions">
-                <div class="ui blue deny button">
-                   Back
-                </div>
+                <p>The school has always focused on developing other qualities beyond the formal curriculum. The hidden curriculum played a significant part in my education and helped me reach my potential. I am
+                certain my attending Mount Sion helped me be the young man I am today, I am glad I went to Mount Sion and I cannot recommend the school highly enough.</p>
             </div>
         </div>
-
+        <div class="actions">
+            <div class="ui blue deny button">
+                Back
+            </div>
+        </div>
+    </div>
     <div class="ui info event-modal modal" data-object="testimonial4">
-            <i class="close icon"></i>
-            <div class="ui header">
-                John Quinn
-            </div>
-            <div class="content">
-                <div class="description">
-                <div class="ui header">Testimonial</div>
-                <p>As a former student of Mount Sion C.B.S. and returning there in my capacity as Games Development Administrator for Cumann Luthcleas Gael Phort L&aacute;irge, I was thrilled to see the positive changes made in the school in terms of its development and openness to providing its students with extracurricular activities. The development of its new AstroTurf is proof of the schools intent in this regard. Wishing Mount Sion C.B.S. the very best. John Quinn                    </p>
+        <i class="close icon"></i>
+        <div class="ui header">
+            John Quinn
+        </div>
+        <div class="content">
+            <div class="description">
+                <div class="ui header">
+                    Testimonial
                 </div>
-            </div>
-            <div class="actions">
-                <div class="ui blue deny button">
-                    Back
-                </div>
+                <p>As a former student of Mount Sion C.B.S. and returning there in my capacity as Games Development Administrator for Cumann Luthcleas Gael Phort L&aacute;irge, I was thrilled to see the positive
+                changes made in the school in terms of its development and openness to providing its students with extracurricular activities. The development of its new AstroTurf is proof of the schools intent
+                in this regard. Wishing Mount Sion C.B.S. the very best. John Quinn</p>
             </div>
         </div>
-
+        <div class="actions">
+            <div class="ui blue deny button">
+                Back
+            </div>
+        </div>
+    </div>
     <div class="ui info event-modal modal" data-object="testimonial5">
-            <i class="close icon"></i>
-            <div class="ui header">
-                Jim Nolan
-            </div>
-            <div class="content">
-                <div class="description">
-                <div class="ui header">Testimonial</div>
-                <p>&#34;I was a student at Mount Sion from 1971 until 1975 and owe the school a huge debt of gratitude for a series of significant interventions which, though I could not have known it at the time, went on to shape the course of my life. In 1972, I was summoned to the Principal, Brother Brereton&#39;	s office and shocked by the instruction to write a sketch for a forthcoming variety concert. I had no idea what prompted the commission but faced for the first time the twin terrors with which I would one day become all too familiar: the blank page and the deadline. I must have cobbled together something and on Brother Brereton&#39;	s further instructions, went on to cast and produce the sketch for presentation in the school hall. I remember little of the outcome but enough of how much I enjoyed the rehearsal process to recognize it, in hindsight, as a deeply formative experience. The following year, despairing of his students  abject failure to engage with William Shakespeare&#39;	s The Merchant of Venice, English teacher, Matt Stapleton&#39;	s belief that our understanding of  the Bard&#39;	s opus would be enriched by reading the text aloud did much to encourage my love for language and in particular for the language of the stage. And as if these were not gifts aplenty, I was both lucky and privileged to go on to encounter in another English teacher, Se&aacute;n Crowe, a man whose work and life continues to inspire me. A gifted and generous teacher, Mr. Crowe&#39;	s provision of a reading list of books that were not on our course, along with persuading the school management to spend money on a decent library - and then trusting his students to stock it &ndash; opened the door to a world of the imagination I might never have known existed. These interventions were absolutely critical in encouraging me to spend my life doing something I love and I will always be grateful to Mount Sion for that.&#34;</p>
-                <p>Jim Nolan is a founder member and former Artistic Director of Red Kettle Theatre Company and a former Writer in Association at the Abbey Theatre His plays, including Moonshine, The Guernica Hotel, The Salvage Shop, Blackwater Angel, Sky Road, Brighton, Dreamland and Johnny I Hardly Knew Ye, have been presented throughout Ireland and in the United Kingdom, the United States and Canada. Jim is a member of Aosd&aacute;na and his plays are published by Gallery Press.</p>
-            </div>
-            </div>
-            <div class="actions">
-                <div class="ui blue deny button">
-                    Back
+        <i class="close icon"></i>
+        <div class="ui header">
+            Jim Nolan
+        </div>
+        <div class="content">
+            <div class="description">
+                <div class="ui header">
+                    Testimonial
                 </div>
+                <p>&#34;I was a student at Mount Sion from 1971 until 1975 and owe the school a huge debt of gratitude for a series of significant interventions which, though I could not have known it at the
+                time, went on to shape the course of my life. In 1972, I was summoned to the Principal, Brother Brereton&#39; s office and shocked by the instruction to write a sketch for a forthcoming variety
+                concert. I had no idea what prompted the commission but faced for the first time the twin terrors with which I would one day become all too familiar: the blank page and the deadline. I must have
+                cobbled together something and on Brother Brereton&#39; s further instructions, went on to cast and produce the sketch for presentation in the school hall. I remember little of the outcome but
+                enough of how much I enjoyed the rehearsal process to recognize it, in hindsight, as a deeply formative experience. The following year, despairing of his students abject failure to engage with
+                William Shakespeare&#39; s The Merchant of Venice, English teacher, Matt Stapleton&#39; s belief that our understanding of the Bard&#39; s opus would be enriched by reading the text aloud did
+                much to encourage my love for language and in particular for the language of the stage. And as if these were not gifts aplenty, I was both lucky and privileged to go on to encounter in another
+                English teacher, Se&aacute;n Crowe, a man whose work and life continues to inspire me. A gifted and generous teacher, Mr. Crowe&#39; s provision of a reading list of books that were not on our
+                course, along with persuading the school management to spend money on a decent library - and then trusting his students to stock it &ndash; opened the door to a world of the imagination I might
+                never have known existed. These interventions were absolutely critical in encouraging me to spend my life doing something I love and I will always be grateful to Mount Sion for that.&#34;</p>
+                <p>Jim Nolan is a founder member and former Artistic Director of Red Kettle Theatre Company and a former Writer in Association at the Abbey Theatre His plays, including Moonshine, The Guernica
+                Hotel, The Salvage Shop, Blackwater Angel, Sky Road, Brighton, Dreamland and Johnny I Hardly Knew Ye, have been presented throughout Ireland and in the United Kingdom, the United States and
+                Canada. Jim is a member of Aosd&aacute;na and his plays are published by Gallery Press.</p>
             </div>
         </div>
-
-                   
+        <div class="actions">
+            <div class="ui blue deny button">
+                Back
+            </div>
+        </div>
+    </div>
     <script>
-        $('.event-modal').modal({
-            allowMultiple: true
-        });
-        
-        $('#showmodal').click(function() {
-            $('.fullscreen.modal').modal('show');
-        });
+           $('.event-modal').modal({
+               allowMultiple: true
+           });
+           
+           $('#showmodal').click(function() {
+               $('.fullscreen.modal').modal('show');
+           });
 
-        $('.event-modal.info').each(function(idx, elem) {
-            $(elem).modal('attach events', '#' + $(elem).attr('data-object'));
-        });
+           $('.event-modal.info').each(function(idx, elem) {
+               $(elem).modal('attach events', '#' + $(elem).attr('data-object'));
+           });
 
     </script>
-
-<div class="ui inverted blue vertical container footer segment">
-    <div class="ui center aligned container">
-      <div class="ui section divider"></div>
-        <div class="ui stackable divided grid">
-            <div class="four wide column">
-                <div class="ui link list">
-                    <a href="https://mountsion.vsware.ie/Login.jsp" target="blank" class="item white">
-                        VSWare
-                    </a>
-                    <a href="mailto:info@mountsioncbssecondary.ie" target="blank" target="_top" class="item white">
-                        Email
-                    </a>
-                    <a href="https://www.education.ie/en/" target="blank" class="item white">
-                        Department of Education
-                    </a>
-                    <a href="https://www.examinations.ie" target="blank" class="item white">
-                        State Exams Commission
-                    </a>
+    <div class="ui inverted blue vertical container footer segment">
+        <div class="ui center aligned container">
+            <div class="ui section divider"></div>
+            <div class="ui stackable divided grid">
+                <div class="four wide column">
+                    <div class="ui link list">
+                        <a class="item white" href="https://mountsion.vsware.ie/Login.jsp" target="blank">VSWare</a> <a class="item white" href="mailto:info@mountsioncbssecondary.ie" target="_top">Email</a> <a class=
+                        "item white" href="https://www.education.ie/en/" target="blank">Department of Education</a> <a class="item white" href="https://www.examinations.ie" target="blank">State Exams Commission</a>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div class="ui link list">
+                        <a class="item white" href="http://www.pdst.ie" target="blank">P.D.S.T</a> <a class="item white" href="http://www.ncca.ie" target="blank">N.C.C.A</a> <a class="item white" href=
+                        "http://www.ncca.ie/en/junior-cycle" target="blank">NCCA Junior Cycle</a> <a class="item white" href="http://www.ncca.ie/en/senior-cycle" target="blank">NCCA Senior Cycle</a>
+                    </div>
+                </div>
+                <div class="eight wide column">
+                    <div class="ui link list">
+                        <h4 class="ui inverted header">Mount Sion C.B.S Waterford</h4>
+                        <p>An all boys school located in the heart of Waterford City</p>
+                        <p>It is the founding school set up by Edmund Rice.</p>
+                    </div>
                 </div>
             </div>
-            <div class="four wide column">
-                <div class="ui link list">
-                    <a href="http://www.pdst.ie" target="blank" class="item white">
-                        P.D.S.T
-                    </a>
-                    <a href="http://www.ncca.ie" target="blank" class="item white">
-                        N.C.C.A
-                    </a>
-                    <a href="http://www.ncca.ie/en/junior-cycle" target="blank" class="item white">
-                        NCCA Junior Cycle
-                    </a>
-                    <a href="http://www.ncca.ie/en/senior-cycle" target="blank" class="item white">
-                        NCCA Senior Cycle
-                    </a>
-                </div>
-            </div>
-            <div class="eight wide column">
-                <div class="ui link list">
-                <h4 class="ui inverted header">Mount Sion C.B.S Waterford</h4>
-                <p>An all boys school located in the heart of Waterford City</p>
-                <p>It is the founding school set up by Edmund Rice.</p>
-                </div>
-            </div>
-        </div>
-        <div class="ui section divider"></div>
+            <div class="ui section divider"></div>
             <div class="ui horizontal inverted small link list">
-                <a class="item white" href="https://www.facebook.com/mountsioncbs/" target="blank">
-                    <i class="large facebook square icon"></i></a>
-                <a class="item white" href="https://twitter.com/mountsion_cbs?lang=en" target="blank">
-                    <i class="large twitter square icon"></i></a>
+                <a class="item white" href="https://www.facebook.com/mountsioncbs/" target="blank"><i class="large facebook square icon"></i></a> <a class="item white" href=
+                "https://twitter.com/mountsion_cbs?lang=en" target="blank"><i class="large twitter square icon"></i></a>
                 <p><sub>All rights reserved Mount Sion CBS</sub></p>
             </div>
         </div>
     </div>
-</div>
-
 </body>
-
 </html>
