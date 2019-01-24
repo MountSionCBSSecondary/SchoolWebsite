@@ -9,20 +9,16 @@
     </script>
     <script src="semantic/out/semantic.min.js">
     </script>
+      <script>
+          $(document).ready(function() {
+              $('#navbar').load('assets/html-navbar-footer/navigation.html');
+              $('#footer').load('assets/html-navbar-footer/footer.html');
+          });
+        </script>
 </head>
 <body>
     <div class="ui divbg container">
         <img class="ui centered image" height="128px" src="assets/images/logo.jpg"> 
-        <script>
-          $(document).ready(function() {
-              $('#navbar').load('pages/about/navigation.html');
-          });
-        </script>
-          <script>
-        $(document).ready(function() {
-        $('#footer').load('../../../../../assets/html-navbar-footer/footer.html');
-    });
-    </script>
         <div class="ui container">
             <div id="navbar"></div>
             <div class="ui basic padded segment">
