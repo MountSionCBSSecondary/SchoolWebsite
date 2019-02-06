@@ -10,10 +10,6 @@ What is the change
 
 Why is this change being made
 
-## How
-
-How is this change being made
-
 ## Verification Steps
 
 What steps should be taken to verify that the change is working correctly
