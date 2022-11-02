@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/MountSionCBSSecondary/SchoolWebsite#readme",
   "dependencies": {
-    "semantic-ui": "^2.3.1"
+    "semantic-ui": "^2.5.0"
   }
 }
